@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navy{
+    display: grid;
+    grid-template-columns: auto 100px;
+    position: sticky;
+    top: 0;
+}
+
+
+.nav-bar{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    gap: 25px;
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    align-items: center;
+    
+    
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+
+}
+
+.nav-p a p:hover{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+
+}
+.name{
+    margin-left: 10px;
+    
+}
+
+.name a{
+    font-size: 1.5rem;
+    font-weight:bold ;
+}
+.items{
+    background-image: url(images/rm218-bb-07.jpg);
+    background-size: cover;
+    background-blend-mode: dark;
+
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 10px;
+}
+
+/* Above code is for nav-bar section code  */
+
+.intro{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.intro p{
+    font-size: 5.8rem;
+    color: whitesmoke;
+    font-family: "Dancing Script", cursive;
+
+}
+
+.button{
+    background-color: transparent;
+    font-size: 1.5rem;
+    padding: 10px;
+    font-family: "Lora", serif;
+    border-radius: 9px;
+    color: whitesmoke;
+    box-shadow: 4px 3px rgb(209, 213, 214);
+}
+
+.button:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 6px 6px lightblue;
+}
+
+
+/* above there is intro section code */
+
+.about-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.im img{
+    width: 190px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+}
+
+
+.about-inner{
+    width: 1000px;
+    height: 420px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+   /* border: 2px solid white; */
+   color: whitesmoke;
+   font-family: "Lora", serif;
+   gap: 10px;
+}
+
+.grid-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ab{
+    grid-column: span 2;
+    font-size: 6rem;
+    margin-bottom: 10px;
+}
+.pass{
+    margin-left: 10px;
+    
+}
+
+.pass p{
+    font-size: 1rem;
+}
+
+.pass p>span{
+    font-size: 1.5rem;
+}
+
+
+/* above code is of about section  */
+
+.skill-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-inner{
+    width: 800px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    /* border: 2px solid whitesmoke; */
+    color: whitesmoke;
+}
+
+.skills{
+    grid-column: span 3;
+    font-size: 5rem;
+}
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .htm {
+    font-size: 2rem;
+  }
+  .htm>i{
+    font-size: 2rem;
+  }
+
+
+  /* above is the code of skills  */
+
+
+  .project{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .project-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .project-inner p{
+    font-size: 3rem;
+    color: whitesmoke;
+    font-family: "Lora", serif;
+  }
+
+  /* above code is of project  */
+
+
+   .resum{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .resume-inner{
+    width: 750px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    /* border: 2px solid white; */
+    gap: 10px;
+  } 
+
+  .res{
+    grid-column: span 2;
+    font-size: 3rem;
+    color: whitesmoke;
+  }
+  
+  .res-down{
+    grid-column: span 2;
+    font-size: 2rem;
+    color: whitesmoke;
+    margin-left: 10px;
+  }
+
+  .resd{
+    grid-column: span 2;
+    font-size: 2rem;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+
+  /* above code is of resume  */
+
+  .cont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .cont-inner{
+    width: 600px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr;
+  }
+
+  .grid{
+    grid-column: span 2;
+    font-size: 3rem;
+    color: whitesmoke;
+  }
+
+  .cont-down{
+    color: whitesmoke;
+  }
+
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+
+
+
+
+
